@@ -274,7 +274,7 @@ services:
 
   imgproxy:
     container_name: supabase-imgproxy
-    image: darthsim/imgproxy:v3.8.0
+    image: ghcr.io/imgproxy/imgproxy:v3.28.0
     restart: unless-stopped
     volumes:
       - ./volumes/storage:/var/lib/storage:z
